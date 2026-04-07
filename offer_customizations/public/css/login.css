@@ -1,0 +1,74 @@
+.page-card {
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.95);
+    width: 600px;
+    text-align: center;
+    /* Animation on load */
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: slideIn 1.2s ease forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100px) scale(0.8);
+        opacity: 0;
+    }
+
+    80% {
+        transform: translateY(20px) scale(1.05);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+/* ================================ Input Styling with Animation ================================ */
+.page-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+
+}
+
+.page-card input:focus {
+    border-color: #9333ea;
+    box-shadow: 0 0 12px rgba(147, 51, 234, 0.5);
+    transform: scale(1.03);
+}
+
+/* ================================ Button Styling ================================ */
+.page-card .btn {
+    background: linear-gradient(135deg, #06b6d4, #3b82f6);
+    /* teal → blue gradient */
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.page-card .btn:hover {
+    background: linear-gradient(135deg, #3b82f6, #06b6d4);
+    /* reverse gradient */
+    transform: translateY(-2px);
+    /* slight lift on hover */
+}
+
+/* ================================ Container Adjustment ================================ */
+/* .container.my-4 {
+    margin-top: 12rem !important;
+} */

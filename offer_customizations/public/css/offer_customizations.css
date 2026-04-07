@@ -1,0 +1,64 @@
+/* ================= Navbar ================= */
+/* .navbar {
+    background: linear-gradient(135deg, #e3f2fd, #e3f2fd) !important;
+    border: none !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    color: #fff !important;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+
+.navbar .nav-link {
+    color: #f1f1f1 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 0 5px;
+    border-radius: 8px;
+    padding: 8px 14px !important;
+}
+
+.navbar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff !important;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */
+
+/* ================= Sidebar ================= */
+.layout-side-section {
+    background-color: #e3f2fd !important;
+  
+}
+
+/* .sidebar-item {
+    color: #fff !important;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 6px 10px !important;
+    padding: 10px 14px !important;
+    font-weight: 600;
+}
+
+.sidebar-item:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+    transform: translateX(6px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+} */ 
+
+/* .sidebar-item.active {
+    background: #2C3A47 !important;
+    color: #fff !important;
+    font-weight: 700;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+} */
+
+.layout-main-section {
+  background-color: #e3f2fd !important;
+}

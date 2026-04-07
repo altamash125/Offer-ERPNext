@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-30 11:58:26.968622",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "subject",
+  "task",
+  "start_date",
+  "end_date",
+  "task_percentage",
+  "column_break_ewha",
+  "expected_time_in_hours",
+  "assigned_to",
+  "action",
+  "status",
+  "user"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "task",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Task"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "task_percentage",
+   "fieldtype": "Percent",
+   "label": "Task Percentage"
+  },
+  {
+   "fieldname": "column_break_ewha",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expected_time_in_hours",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Expected Time (In Hours)"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Small Text",
+   "label": "Assigned To"
+  },
+  {
+   "fieldname": "action",
+   "fieldtype": "Select",
+   "label": "Action",
+   "options": "Status Update\nAdd For Today"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nWorking\nHold\nOverdue\nReopen\nDone\nCompleted"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-30 21:20:06.995688",
+ "modified_by": "Administrator",
+ "module": "Offer Customizations",
+ "name": "Task Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
