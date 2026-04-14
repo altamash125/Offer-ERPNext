@@ -12,7 +12,8 @@
   "section_break_kqyr",
   "tasks_to_discuss",
   "section_break_jadm",
-  "task_to_be_created"
+  "task_to_be_created",
+  "amended_from"
  ],
  "fields": [
   {
@@ -55,12 +56,23 @@
    "fieldname": "get_tasks",
    "fieldtype": "Button",
    "label": "Get Task"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Huddle Meeting",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2026-03-30 13:19:10.285540",
+ "modified": "2026-04-14 12:14:49.237541",
  "modified_by": "Administrator",
  "module": "Offer Customizations",
  "name": "Huddle Meeting",
